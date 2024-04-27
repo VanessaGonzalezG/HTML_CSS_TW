@@ -1,0 +1,16 @@
+#fridavanessa {
+    color: #137ba7;
+}
+
+.flex-container {
+    display: flex; /* Establecer como contenedor flexbox */
+    align-items: center; /* Centrar verticalmente los elementos */
+    justify-content: space-between; /* Distribuir los elementos con espacio entre ellos */
+    
+}
+
+.grid-container {
+    display: grid; /* Establecer como contenedor de grid */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Una columna por contenedor */
+    gap: 10px; /* Espacio entre celdas */
+}
