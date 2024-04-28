@@ -6,11 +6,19 @@
     display: flex; /* Establecer como contenedor flexbox */
     align-items: center; /* Centrar verticalmente los elementos */
     justify-content: space-between; /* Distribuir los elementos con espacio entre ellos */
-    
 }
+
+.flex-item {
+    background-color: #FF5733; /* Color de fondo */
+}   
 
 .grid-container {
     display: grid; /* Establecer como contenedor de grid */
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Una columna por contenedor */
     gap: 10px; /* Espacio entre celdas */
+    
+}
+
+.grid-item {
+    background-color: #F7DC6F;
 }
